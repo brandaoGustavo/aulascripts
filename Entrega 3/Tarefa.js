@@ -18,10 +18,6 @@ function GerarListener() {
 		
 	};
 	
-	obj.returnCount = function(){
-		return count;
-	}
-	
 	return obj;
 	}
 var contadorObserver = GerarListener();
